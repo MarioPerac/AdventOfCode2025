@@ -17,7 +17,7 @@ while(i < ranges.size)
 
     r0, r1 = ranges[j]
 
-    if range[1] >= r0  && range[0] <= r1
+    if range[1] >= r0
       range[0] = [range.first, r0].min
       range[1] = [range.last, r1].max
       j += 1
